@@ -1,0 +1,24 @@
+{
+  "face_swap": {
+    "function": "face_swap",
+    "params": {
+      "face_detection": true,
+      "output_resolution": "3840x2160"
+    }
+  },
+  "background_change": {
+    "function": "background_change",
+    "params": {
+      "background_type": "natural",
+      "output_resolution": "3840x2160"
+    }
+  },
+  "style_transfer": {
+    "function": "style_transfer",
+    "params": {
+      "style": "watercolor",
+      "style_strength": 50,
+      "output_resolution": "3840x2160"
+    }
+  }
+} 
